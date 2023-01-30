@@ -1,0 +1,35 @@
+table{
+    width: 500px;
+    border-collapse: separate; 
+    /* separate = DEFAULt */
+}
+
+th{
+    background-color:gray ;
+}
+
+td{
+    background-color: burlywood;
+}
+
+/* border-spacing
+
+    border-spacing: 1st 2nd
+
+    1st value = horizontal(left - right)
+    2nd value = vertical(top - bottom )
+
+    if one only = both (horizontal and vertical spacing)
+*/
+
+table {
+    border-spacing: 15px ;
+}
+
+.name{
+    background-color: yellowgreen;
+}
+
+.mail{
+    background-color: orange;
+}

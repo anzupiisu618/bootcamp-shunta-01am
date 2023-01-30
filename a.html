@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a</title>
+</head>
+<body>
+    <center>
+        <h2> Please fill this survey form</h2>
+        <br><br>
+
+        <table border="1" width="500">
+            <!-- １段目 -->
+            <!-- labelを使えば良かった -->
+                 <tr>
+                    <td>First_Name:</td>
+                    <td><input type="text" size="10" min="1" max="10" maxlength="10"  ></td>
+                    <td>MI:</td>
+                    <td><input type="text" size="3" min="1" max="3" maxlength="3"></td>
+                    <td>Last_Name:</td>
+                    <td><input type="text" size="10" min="1" max="10" maxlength="10"></td>
+             </tr>
+
+            <!-- ２段目 -->
+                <tr>
+                    <td>City:</td>
+                    <td><input type="text" size="10" ></td>
+                    <td>State:</td>
+                    <td><input type="text" size="4"></td>
+                    <td>Zip Code:</td>
+                    <td><input type="text" size="5"></td>
+
+                </tr>
+
+            
+                <!--３段目  -->
+                <tr>
+                    <td colspan="6">Choose a Sport:</td>
+                </tr>
+            
+                <tr>
+                     <td colspan="6">
+                        <input type="checkbox" name="fav_sport" id="Basketball">
+                        <label for="Basketball">Basketball</label>
+
+                        <input type="checkbox" name="fav_sport" id="Football">
+                        <label for="Football">Football</label>
+
+                        <input type="checkbox" name="Hockey" id="Hockey">
+                        <label for="Hockey">Hockey</label>
+                
+                    </td>
+                </tr>
+
+                <!-- ４段目 -->
+                <tr>
+                    <td colspan="6">Choose a year:</td>
+                </tr>
+
+                <tr>
+                    <td colspan="6">
+                        <input type="radio" name="year" id="Freshman" value="Freshman">
+                        <label for="Freshman">Freshman</label>
+
+                        <input type="radio" name="year" id="sophomore" value="sophomore">
+                        <label for="sophomore">Sophomore</label>
+
+                        <input type="radio" name="year" id="junior" value="junior">
+                        <label for="junior">Junior</label>
+
+                        <input type="radio" name="year" id="senior" value="senior">
+                        <label for="senior">Senior</label>
+                    </td>
+                </tr>
+
+                <!-- ５段目 -->
+                <tr>
+                    <td colspan="6">Choose your favorite fast food</td>
+                </tr>
+
+                <tr>
+                    <td colspan="6">
+                        <select name="food" id="" multiple>
+                            <option value=""hidden>Foods</option>
+                            <option value="Chips">Chips</option>
+                            <option value="Pizza">Pizza</option>
+                            <option value="Nachos">Nachos</option>
+                        </select>
+
+                    </td>
+                </tr>
+
+                <!-- ６段目 -->
+                <tr>
+                    <td colspan="6">
+                        <textarea name="comment" id="comment" cols="40" rows="5" placeholder="Please let us know your comments"></textarea>
+                    </td>
+                </tr>
+
+                <!-- ７段目 -->
+                <tr>
+                    <td colspan="6">
+                        <input type="submit" value="Send it" name="Send it">
+                        <input type="reset" value="Clear it" name="Clear it">
+
+                    </td>
+                </tr>
+        </table>
+
+    
+
+
+    </center>
+</body>
+</html>
